@@ -30,7 +30,7 @@ restart-occs:
   steps:
     # Manage Oracle Container Cloud Service container
     - peternagy/oracle-occs-container-util:
-        occs_user: $OCCS_USER
+        occs_user: $OCCS_USERNAME
         occs_password: $OCCS_PASSWORD
         rest_server_url: $REST_SERVER_URL
         function: $FUNCTION
